@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.ngo.NGOServer.appUser.AppUserService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://sanjivaningo.web.app", "https://sanjivaningo.firebaseapp.com"})
 @RestController
 @RequestMapping(path = "/api/v1/registration")
 @AllArgsConstructor

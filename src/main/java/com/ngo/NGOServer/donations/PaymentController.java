@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://sanjivaningo.web.app", "https://sanjivaningo.firebaseapp.com"})
 @RestController
 @RequestMapping(path = "/api/v1/donate")
 @PreAuthorize("hasRole('ROLE_USER')")

@@ -94,7 +94,7 @@ public class RegistrationService {
                 "<p style=\"color: #666; font-size: 15px;\">If you did not request this email you can safely ignore it.</p>" +
                 "<p style=\"color: #666; font-size: 15px;\">See you soon! Kind Regards,</p>" +
                 "<p style=\"color: #666; font-size: 15px; margin:0;\">ADMIN,</p>" +
-                "<p style=\"color: #666; font-size: 15px; margin:0;\">The Sanjivani NGO, Pune</p>" +
+                "<p style=\"color: #666; font-size: 15px; margin:0;\"><a href=\"https://sanjivaningo.web.app\">The Sanjivani NGO, Pune</a></p>" +
                 "</div>" +
                 "</div>" +
                 "</body>" +

@@ -28,7 +28,7 @@ import com.ngo.NGOServer.appUser.AppUserRepository;
 import com.ngo.NGOServer.donations.Donations;
 import com.ngo.NGOServer.donations.DonationsRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://sanjivaningo.web.app", "https://sanjivaningo.firebaseapp.com"})
 @RestController
 @RequestMapping(path = "/api/v1/search")
 @PreAuthorize("hasRole('ROLE_ADMIN')")
